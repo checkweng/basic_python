@@ -17,7 +17,7 @@ class FooChild(FooParent):
     def bar(self,message):
         super().bar(message)
         print ('Child bar fuction')
-        print (self.parent)
+        print (self.parent)    ##上一个实例的self也继承
  
 if __name__ == '__main__':
     fooChild = FooChild()
