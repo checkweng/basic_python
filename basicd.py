@@ -23,4 +23,4 @@ if __name__ == '__main__':
     fooChild = FooChild()
     fooChild.bar('HelloWorld')
     
-######
+######相当于在原有类的基础上重新开发内容
